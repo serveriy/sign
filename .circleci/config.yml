@@ -10,7 +10,7 @@ jobs:
           command: /home/circleci/.pyenv/versions/3.10.1/bin/python3.10 -m pip install --upgrade pip
       - run: 
           name: Insall Dependices
-          command: pip3 install requests
+          command: pip3 install requests lxml
       - run: 
           name: Begin
           command: python3 sign.py
